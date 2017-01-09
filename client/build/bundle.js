@@ -19806,7 +19806,7 @@
 	  render: function render() {
 	    var movieComponents = this.props.movies.map(function (movieObject) {
 	      return React.createElement(Movie, {
-	        name: movieObject.name, href: movieObject.url });
+	        name: movieObject.name });
 	    });
 	
 	    return React.createElement(

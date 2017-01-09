@@ -15,6 +15,7 @@ var MovieTable = React.createClass({
   getShowTimes: function() {
     console.log('Get show times clicked');
   },
+  
 
   render: function() {
     return (
